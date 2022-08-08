@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <servlet>
+  	<servlet-name>AdminLogin</servlet-name>
+  	<servlet-class>com.project.servlet.AdminLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AdminLogin</servlet-name>
+  	<url-pattern>/AdminLogin</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  	<servlet-name>Logout</servlet-name>
+  	<servlet-class>com.project.servlet.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Logout</servlet-name>
+  	<url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+    <servlet>
+  	<servlet-name>RegServlet</servlet-name>
+  	<servlet-class>com.project.servlet.RegServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>RegServlet</servlet-name>
+  	<url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>Update</servlet-name>
+  	<servlet-class>com.project.servlet.UpdateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Update</servlet-name>
+  	<url-pattern>/update</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>Delete</servlet-name>
+  	<servlet-class>com.project.servlet.DeleteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Delete</servlet-name>
+  	<url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+  
+
+</web-app>
